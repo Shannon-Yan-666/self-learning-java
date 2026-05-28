@@ -2,12 +2,44 @@
 A beginner learning Java on my own, doing basic exercises.
 
 ## 📌 仓库说明
-- 学习目标：掌握Java基础语法、面向对象、常用API等
-- 练习内容：基础语法题、小项目、算法练习
+- 学习目标： 掌握Java基础语法、面向对象、常用API等
+            掌握Java SE 进阶：集合、IO、多线程、Lambda、异常等
+- 后续扩展：JavaWeb、Spring Boot、项目实战等
+- 练习内容：基础语法题、小项目
+- 适合零基础转行、系统复盘、求职复习使用。
 
 ## 📂 目录结构
-- `/basics`：基础语法练习（HelloWorld、变量、循环等）
-- `/oop`：面向对象练习（类、继承、接口等）
+
+### `javase-basic`（Java SE 基础）
+- `/basics`：基础语法练习（HelloWorld、变量、循环、数组等）
+- `/oop`：面向对象练习（类、继承、接口、多态等）
+- `/api`：常用API练习（String、Math、System等）
+
+### `javase-advanced`（Java SE 进阶）
+- `/api`：进阶工具API
+  - `/regex`：正则表达式
+  - `/math-api`：Math、BigInteger、BigDecimal
+  - `/system-runtime`：System、Runtime
+  - `/object-api`：Object、Objects
+  - `/immutable`：不可变集合
+- `/collection`：集合框架
+  - `/core`：Collection、Map体系核心
+  - `/list`：List接口实现类（ArrayList、LinkedList）
+  - `/set`：Set接口实现类（HashSet、TreeSet）
+  - `/map`：Map接口实现类（HashMap、LinkedHashMap、TreeMap）
+  - `/collections-api`：Collections工具类
+- `/functional`：函数式编程
+  - `/lambda`：Lambda表达式
+  - `/stream`：Stream流
+  - `/function-interface`：函数式接口
+- `/exception`：异常处理
+  - `/throwable`：Throwable体系
+  - `/custom-exception`：自定义异常
+ 
+## 🛠 环境与工具
+- JDK：Java 8+
+- IDE：IntelliJ IDEA
+- 版本控制：Git + GitHub
 
 ## 🚀 如何运行
 1.  确保已安装JDK 8+
