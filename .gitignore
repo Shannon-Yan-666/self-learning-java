@@ -1,16 +1,22 @@
-# Compiled class file
+# --------------------------
+# IDEA 配置文件（必须忽略，防止泄露本地路径和个人设置）
+# --------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# --------------------------
+# Java 编译与构建文件（必须忽略，避免仓库臃肿）
+# --------------------------
+target/
+build/
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -19,6 +25,35 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# --------------------------
+# 日志与临时文件（防止泄露调试信息）
+# --------------------------
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+*.tmp
+*.temp
+
+# --------------------------
+# 敏感配置文件（必须忽略，防止泄露账号密码）
+# --------------------------
+*.properties
+*.yml
+*.yaml
+*.env
+application-*.properties
+application-*.yml
+config.ini
+settings.json
+
+# --------------------------
+# 其他无关文件
+# --------------------------
+# BlueJ files
+*.ctxt
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
