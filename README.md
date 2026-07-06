@@ -35,6 +35,14 @@ A beginner learning Java on my own, doing basic exercises.
 - `/exception`：异常处理
   - `/throwable`：Throwable体系
   - `/custom-exception`：自定义异常
+- `/file`：File文件操作
+  - 文件路径、创建删除、遍历目录、文件筛选
+- `/io`：IO字节流/字符流、缓冲流、转换流、对象流、压缩流、工具类
+- `/thread`：多线程并发编程
+  - 线程三种创建方式、线程常用方法
+  - synchronized同步锁、Lock锁
+  - wait/notify等待唤醒机制
+  - 阻塞队列、线程池（内置线程池+自定义线程池）
  
 ## 🛠 环境与工具
 - JDK：Java 8+
@@ -48,3 +56,4 @@ A beginner learning Java on my own, doing basic exercises.
 
 ## 📅 更新日志
 - 2026-05-28：创建仓库，完善README
+- 2026-07-06：新增File文件操作、IO流全套练习；新增多线程并发完整案例
