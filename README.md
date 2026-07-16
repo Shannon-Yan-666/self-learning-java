@@ -43,6 +43,22 @@ A beginner learning Java on my own, doing basic exercises.
   - synchronized同步锁、Lock锁
   - wait/notify等待唤醒机制
   - 阻塞队列、线程池（内置线程池+自定义线程池）
+- `/network\`：网络编程
+  - `/inet-address\`：InetAddress IP地址类
+  - `/socket\`：TCP/UDP协议、Socket通信
+- `/reflect\`：反射机制
+  - Class对象获取、构造器反射、字段反射、方法反射
+- `/dynamic-proxy\`：JDK动态代理
+  - 代理工具类、动态代理实现案例
+
+## ✅ 当前进度（2026-07-16）
+- [x] 初始化仓库 & 配置 \`.gitignore\`
+- [x] 完成 \*\*javase-basic\*\* 全部基础语法、面向对象练习
+- [x] 完成进阶工具API、集合、Lambda、Stream、异常模块
+- [x] 完成 File 文件操作、IO 流全套练习
+- [x] 完成多线程并发全套练习（同步锁、等待唤醒、线程池）
+- [x] 完成网络编程 Socket、反射、JDK 动态代理模块
+- [ ] 下一阶段：Maven 环境搭建
  
 ## 🛠 环境与工具
 - JDK：Java 8+
@@ -57,3 +73,4 @@ A beginner learning Java on my own, doing basic exercises.
 ## 📅 更新日志
 - 2026-05-28：创建仓库，完善README
 - 2026-07-06：新增File文件操作、IO流全套练习；新增多线程并发完整案例
+- 2026-07-16：新增网络编程Socket、反射、JDK动态代理模块练习
