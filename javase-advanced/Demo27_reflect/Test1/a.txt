@@ -1,0 +1,5 @@
+name=王邦邦
+age=22
+gender=女
+height=166.0
+hobby=唱歌
